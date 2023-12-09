@@ -36,10 +36,10 @@ def main():
         df_filtrado = df
 
     total_custo = df_filtrado["Custo"].sum()
-    total_custo_formatado = locale.currency(total_custo, grouping=True)
+    total_custo_formatado = f"R$ {total_custo:,.2f}"
 
     total_lucro = df_filtrado["Lucro"].sum()
-    total_lucro_formatado = locale.currency(total_lucro, grouping=True)
+    total_lucro_formatado = f"R$ {total_lucro:,.2f}"
 
     total_clientes_ativos = df_filtrado["ID Cliente"].nunique()
 
