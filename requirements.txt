@@ -4,4 +4,3 @@ plotly_express
 numpy
 streamlit-extras
 openpyxl
-locale
