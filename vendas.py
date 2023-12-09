@@ -1,5 +1,3 @@
-import locale
-
 import pandas as pd
 import streamlit as st
 from streamlit_extras.metric_cards import style_metric_cards
@@ -10,9 +8,6 @@ from streamlit_extras.metric_cards import style_metric_cards
 def carregar_dados():
     df = pd.read_excel("Vendas.xlsx")
     return df
-
-
-locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
 
 
 def main():
