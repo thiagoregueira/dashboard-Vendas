@@ -13,6 +13,8 @@ Este projeto é um dashboard de vendas desenvolvido na imersão em streamlit com
 
 ## Tecnologias Utilizadas
 
+- dados utilizados: https://learn.microsoft.com/pt-br/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+
 - Python
 - Streamlit
 - Pandas
