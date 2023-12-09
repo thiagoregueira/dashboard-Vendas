@@ -23,7 +23,7 @@ Este projeto é um dashboard de vendas desenvolvido na imersão em streamlit com
 
 1. Clone este repositório para a sua máquina local.
 2. Instale as dependências necessárias usando o comando `pip install -r requirements.txt`.
-3. Execute o aplicativo usando o comando `streamlit run app.py`.
+3. Execute o aplicativo usando o comando `streamlit run vendas.py`.
 
 ## Contribuições
 
